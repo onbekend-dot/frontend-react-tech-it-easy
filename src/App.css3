@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+}
+body {
+    font-family: sans-serif;
+    padding: 16px;
+}
+
+.header {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+    flex-direction: column;
+    color: white;
+}
+.header h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h2 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 45px;
+
+}
+section  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.vierkant1 p {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.vierkant1  {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    background-color: lawngreen;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    border: 1px solid red;
+    color: black;
+    font-size: 30px;
+}
+.vierkant2 p {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.vierkant2   {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    background-color: lightskyblue;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+}
+.vierkant3 p {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.vierkant3   {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    border-shape: revert;
+    border: 1px solid yellowgreen;
+    background-color: orangered;
+}
+/*.section2 .vierkant4 {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 50px;
+    background-color: cornflowerblue;
+
+} */
+.section2 img {
+    width: 40%;
+    max-width: 800px;
+    height: auto;
+    margin-left: 50px;
+    padding: 30px;
+}
+.section2 .info {
+    display: flex;
+    gap: 10px;
+    font-size: 50px;
+}
+.section2 .info  h3 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    white-space: nowrap;
+    margin-left: 90px;
+    color: darkblue;
+}
+.section2 .info img {
+    width: 50px;
+    height: 50px;
+    margin-top: 78px;
+    text-align-last: center;
+
+
+}
+.section2 h2 {
+    font-size: 50px;
+    text-align: center;
+}
+/*.section3 p {
+    font-size: 90px;
+    font-family: "Californian FB", sans-serif;
+    letter-spacing: 75px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+} */
+ /*.section3 .button {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 30px;
+}  */
+.section3 button   {
+    display: flex;
+    gap: 60px;
+    height: 90px;
+    color: white;
+    font-size: 58px;
+    width: stretch;
+
+}
+.section3  button:hover {
+    cursor: pointer;
+    color: blue;
+    border: 2px #006400;
+    background-color: orangered;
+}
+.section4 ul li {
+    display: flex;
+    flex-direction: row;
+}
+.section4 h2 {                                  /* onze merken */
+    font-family: "Californian FB", sans-serif;
+    font-size: 80px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: center; /* reageert niet op text-align */
+}
+
+.section4 h2 {
+    letter-spacing: 5px;
+}
+
+.section4 {
+    color: cornflowerblue;
+    margin-top: 200px;
+}
+.section4 h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list img  {
+    width: 40%;
+    display : block;
+    height: auto;
+
+
+}
+@media (max-width: 768px) {
+
+    .header h1,
+    .header h2 {
+        font-size: 32px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .vierkant1,
+    .vierkant2,
+    .vierkant3 {
+        width: 90%;
+        max-width: 350px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section2 p,
+    .section3 p,
+    .section4 p {
+        margin-left: 0;
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    .section3 h2 {
+        font-size: 25px;
+    }
+
+    .button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button button {
+        width: 70%;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 2px;
+    }
+    .bestSoldTv {
+        width: 40%;
+        margin-left: 40px;
+    }
+    .section4 img {
+        width: 40%;
+        margin-left: 200px;
+    }
+
+}
+.section5 ul  {
+    display: flex;
+    flex-direction: row;
+}
+.section5 h2 {
+    font-size: 20px;
+}
+.section5 ul li {
+    display: flex;
+    flex-direction: row;
+}
+.section6 li img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+.section7 button {
+    width: 10%;
+    height: 70px;
+    font-size: 24px;
+
+}

@@ -1,4 +1,10 @@
+
 // BEST VERKOPENDE TV
+
+
+
+
+
 export const bestSellingTv = {
     type: 'UHD 55AU7040',
     name: 'Crystal',
@@ -37,7 +43,7 @@ export const bestSellingTv = {
 }
 
 // STATISCHE VOORRAAD TV'S
-export let inventory = [
+export let products = [
     {
         type: '43PUS6504/12',
         name: '4K TV',

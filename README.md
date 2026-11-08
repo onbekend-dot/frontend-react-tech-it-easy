@@ -39,12 +39,12 @@ gaat met de technische opdrachten voor je jouw tijd besteed aan styling.
 
 ### Opdracht 1 - Helperfuncties
 
-Je zult in deze opdracht meerdere helperfuncties gaan schrijven die we gaan gebruiken om de juiste informatie op
+Je zult in deze opdracht meerdere helper functies gaan schrijven die we gaan gebruiken om de juiste informatie op
 het dashboard weer te geven. Je gebruikt hier de data uit de `inventory`-array voor. Deze vind je in de `constants`-map.
-_Tip:_ maak voor iedere helperfunctie een apart bestand en vergeet deze niet aan te roepen in `App.jsx`, anders blijft
+_Tip:_ maak voor iedere helper functie een apart bestand en vergeet deze niet aan te roepen in `App.jsx`, anders blijft
 de console leeg!
 
-* **Opdracht 1a:** Hoeveel tv's zijn er al verkocht? Schrijf een helperfunctie die dit berekent. Log de uitkomst in de
+* **Opdracht 1a:** Hoeveel tv's zijn er al verkocht? Schrijf een helper functie die dit berekent. Log de uitkomst in de
   console.
 * **Opdracht 1b:** Zorg ervoor dat dit aantal in het groen wordt weergegeven op de pagina.
 * **Opdracht 1c:** Hoeveel tv's heeft Tech It Easy in totaal ingekocht? Schrijf een helperfunctie die dit berekent. Log
